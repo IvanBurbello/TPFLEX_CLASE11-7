@@ -1,0 +1,236 @@
+.body{
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    /* position: sticky; */
+}
+
+.discount_box{
+    display: flex;
+    background-color: #1CD1B0;
+    width: 100%;
+    height: 38px;
+    align-items: center;
+    padding-left: 27px;
+}
+
+.title_box{
+    display: flex;
+    width: 100%;
+    height: 101px;
+    background-color: rgba(0, 102, 159, 1);
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    align-items: center;
+    padding-left: 27px;
+    position: sticky;
+}
+
+.main_box{
+    display: flex;
+    background-color:  #F3F3F3;
+    width: 100%;
+    height: 834px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards_box{
+    display: flex;
+    width: 960px;
+    height: 530px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    display: flex;
+    width: 300px;
+    height: 530px;
+    border-radius: 16px 16px 0px 0px;
+    flex-direction: column;
+  
+}
+
+.corazon{
+    width: 30px;
+    height: 26px;
+    margin: 18px;
+}
+
+.background_img{
+    display: flex;
+    size: 100%;
+    background-image: url('/img/bg-b.jpg');
+    background-size: 100%;
+    height: 193px;
+    border-radius: 16px 16px 0px 0px;
+}
+
+.logo_batman{
+    display: flex;
+    position: absolute;
+    align-self: center;
+    justify-self: center;
+    width: 120px;
+    height: 118px;
+    background-image: url('/img/batman.jpg');
+    border-radius: 100%;
+    background-size: 100%;
+    margin-top: 180px;
+    margin-left: 90px;
+}
+
+.card_btn{
+    display: flex;
+    width: 128px;
+    height: 48px;
+    background-color:#00669F;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+}
+
+.description_box{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: center;
+    background-color: #E5E5E5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 336px;
+}
+
+.title_box__card{
+    display: flex;
+    justify-content: center;
+    width: 122px;
+    height: 35px;
+    margin-top: 74px;
+    align-items: center;
+    /* background-color: red; */
+}
+
+.about_box{
+    display: flex;
+    justify-content: center;
+    /* background-color: yellow; */
+    width: 267px;
+    height: 113px;
+}
+
+
+.background_img_w{
+    display: flex;
+    size: 100%;
+    background-image: url('/img/bg-w.jpg');
+    background-size: 100%;
+    height: 193px;
+    border-radius: 16px 16px 0px 0px;
+}
+
+.logo_wonder{
+    display: flex;
+    position: absolute;
+    align-self: center;
+    justify-self: center;
+    width: 120px;
+    height: 118px;
+    background-image: url('/img/ww.jpg');
+    border-radius: 100%;
+    background-size: 100%;
+    margin-top: 180px;
+    margin-left: 90px;
+}
+
+.background_img_s{
+    display: flex;
+    size: 100%;
+    background-image: url('/img/bg-s.jpg');
+    background-size: 100%;
+    height: 193px;
+    border-radius: 16px 16px 0px 0px;
+}
+
+.logo_superman{
+    display: flex;
+    position: absolute;
+    align-self: center;
+    justify-self: center;
+    width: 120px;
+    height: 118px;
+    background-image: url('/img/sman.jpg');
+    border-radius: 100%;
+    background-size: 100%;
+    margin-top: 180px;
+    margin-left: 90px;
+}
+
+.footer_box{
+    display: flex;
+    width: 100%;
+    height: 51px;
+    background: #00669F;
+    flex-direction: column;
+}
+
+.footer_description{
+    display: flex;
+    color: white;
+    padding-left: 20px;
+}
+
+@media screen and (max-width: 450px) {
+    .card{
+        margin-top: 50px;
+        
+    }
+
+    .main_box{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .cards_box{
+        
+    }
+
+    .footer_box{
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: flex-end;
+
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .card{
+        margin-top: 50px;
+    }
+
+    .main_box{
+        flex-wrap: wrap;
+        
+    }
+
+    .cards_box{
+        
+    }
+
+    .footer_box{
+        flex-wrap: wrap;
+        align-items: flex-end;
+    }
+
+}
+
+
